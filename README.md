@@ -3,11 +3,11 @@
 This project is a REST API solution for the Chitkara University Qualifier (Class of 2027), developed using **Next.js** and **TypeScript**. It implements strict API specifications for mathematical operations and AI integration.
 
 ## 🚀 Deployed API
-**Base URL:** `https://bajaj-finserv-backend-assignment.vercel.app`
+**Base URL:** `https://bajaj-bee-assignment.vercel.app/`
 
 ### Live Endpoints
-- **Health Check (GET)**: [https://bajaj-finserv-backend-assignment.vercel.app/api/health](https://bajaj-finserv-backend-assignment.vercel.app/api/health)
-- **BFHL (POST)**: `https://bajaj-finserv-backend-assignment.vercel.app/api/bfhl`
+- **Health Check (GET)**: [https://bajaj-bee-assignment.vercel.app//api/health](https://bajaj-bee-assignment.vercel.app//api/health)
+- **BFHL (POST)**: [https://bajaj-bee-assignment.vercel.app//api/bfhl](https://bajaj-bee-assignment.vercel.app//api/bfhl)
 
 ## 🛠 Tech Stack
 - **Framework**: Next.js 15 (App Router)
@@ -94,10 +94,10 @@ You can test the API using `curl` or Postman.
 
 ```bash
 # Test Health
-curl -X GET https://bajaj-finserv-backend-assignment.vercel.app/api/health
+curl -X GET https://bajaj-bee-assignment.vercel.app//api/health
 
 # Test Fibonacci
-curl -X POST https://bajaj-finserv-backend-assignment.vercel.app/api/bfhl \
+curl -X POST https://bajaj-bee-assignment.vercel.app//api/bfhl \
   -H "Content-Type: application/json" \
   -d '{"fibonacci": 10}'
 ```
